@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;  
+    scroll-behavior: smooth;
+}
+body{
+    height: 900px;
+}
+.container-color{
+    width: auto;
+    height: 900px;
+    text-align: center;
+    /* background-color: blueviolet */
+}
+.color1{
+    background-color: red;
+    height: 700px;
+}
+.color2{
+    background-color: red;
+    height: 700px;
+}
+.color3{
+    background-color: red;
+    height: 700px;
+}

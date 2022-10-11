@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;  
+    scroll-behavior: smooth;
+}
+body{
+    height: 900px;
+}
+li{
+    display: inline;
+    padding: 20px;
+    color: black;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+li:hover{
+    color: black;
+}
+li a:hover{
+    color: rebeccapurple;
+}
+.navbar{
+    background-color:burlywood ;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+

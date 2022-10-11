@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(214, 207, 197);
+    margin: auto;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.container{
+    margin: auto;
+    width: 900px;
+    height: 70px;
+    border: 1px solid black;
+} 
+
+.container-1{
+    background-color: lemonchiffon;
+    display: flex;
+    height: 150px;
+    border: 1px solid black;
+
+}
+
+.container-1 p{
+    font-size: medium;
+    padding: 10px;
+    text-align: left;
+    text-align: justify;
+}
+.container-2{
+    /* background-color: lightgreen; */
+    display: flex;
+    height: 120px;
+    border: 1px solid black;
+
+}
+.container-21{
+    /* display: flex; */
+    background-color: lightgreen;
+    width: 60%;
+    border: 1px solid black
+}
+.container-22{
+    /* display: flex; */
+    background-color: bisque;
+    width: 40%;
+    border: 1px solid black
+}
+
+
+.container-3{
+    background-color: lightpink;
+    display: flex;
+    height: 130px;
+    border: 1px solid black;
+
+}
+.container-31{
+    /* display: flex; */
+    width: 33.33%;
+    background-color: lightskyblue;
+    border: 1px solid black
+}
+.container-1 p,.container-21 p,.container-22 p,.container-31 p, .container-32 p, .container-33 p, .container-4 p{
+    font-size: medium;
+    padding: 10px;
+    /* padding-bottom: 5px; */
+    text-align: left;
+    text-align: justify;
+}
+.container-32{
+    /* display: flex; */
+    width: 33.33%;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+.container-33{
+    /* display: flex; */
+    width: 33.33%;
+    background-color: lightsteelblue;
+    border: 1px solid black
+}
+.container-4{
+    background-color: lightslategray;
+    display: flex;
+    height: 120px;
+    border: 1px solid black
+}

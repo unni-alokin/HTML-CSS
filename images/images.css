@@ -1,0 +1,18 @@
+body{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.column{
+    display: flex;
+}
+.image{
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+}
+
