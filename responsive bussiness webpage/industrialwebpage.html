@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
+    rel="stylesheet">
+
+    <title>Sparrow</title>
+
+    <link rel = "stylesheet" href = "steer.css">
+
+</head>
+<body>
+    <div class = "container_image"></div>
+    <div class = "container_main">
+
+        <div class = "navbar">
+            <a href = "#" class = "nav-branding">Sparrow.</a>
+            <ul class = "nav-menu">
+                <li class = "nav-item">
+                    <a href = "#" class = "nav-link">Home</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "#about" class = "nav-link" onclick = "top_padding()">About</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "#services" class = "nav-link">Our services</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "blogs" class = "nav-link">Blogs</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "page" class = "nav-link">Page</a>
+                </li>
+                <li class = "nav-item">
+                    <a href = "contacts" class = "nav-link">Contact us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+        <!-- container including image and company moto  -->
+        <div class="introduction_container">
+            <div class="main_heading">
+                <h1>We Help Bussiness Grow <span class="main_heading_brown">and Innovate</span></h1>
+                <p class="sub_heading">It is a long established fact that a reader will be distracted
+                by more or less normal</p>
+            </div>
+            <div class="short_links">
+                <a href="#about"><button class="readmore"><p>Read more</p></button></a>
+                <a href="contactus.html"><button class="contact_us"><p>Contact Us</p></button></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="about">
+        <!-- details container -->
+        <div class="details_container" id="details_container" name = "details" >
+            <div class="details_container_briefs" id="detail_container_briefs">
+                <h3>We are "Sparrow"</h3>
+                <div class="underline"></div>
+                <div class="detail_container_content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 
+                    of type and scrambled it to make a type specimen book. 
+                    </p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+                    type and scrambled it to make a type specimen book. 
+                    </p>
+                    <p>t has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged. 
+                    </p>
+                </div>
+                <button class="readmore"><p>Read more</p></button>
+            </div>
+            <div class="details_container_images" >
+                <img class="details_container_image_box" id="detail_container_image" src="images/meeting.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <!-- our services -->
+        <div class="services_container">
+            <div class="services_container_heading">
+                <h3>Our Services</h3>
+                <div class="underline1"></div>
+            </div>
+
+            <div class="service_cards_row">
+                <div class="services_cards_column">
+                    <div class="service_card">
+                        <img class = "service_icons" src="images/idea.gif">
+                        <p>Creative Idea</p>
+                    </div>
+                </div>
+                <div class="services_cards_column">
+                    <div class="service_card">
+                        <img class = "service_icons" src="images/responsive1.gif">
+                        <p>Responsive Webdesign</p>
+                    </div>
+                </div>
+                <div class="services_cards_column">
+                    <div class="service_card">
+                        <img class = "service_icons" src="images/color.gif">
+                        <p>Color Options</p>
+                    </div>
+                </div>
+                <div class="services_cards_column">
+                    <div class="service_card">
+                        <img class = "service_icons" src="images/webdev.gif">
+                        <p>Web Devolpement</p>
+                    </div>
+                </div>
+                <div class="services_cards_column">
+                    <div class="service_card">
+                        <img class = "service_icons" src="images/webdesign-unscreen.gif">
+                        <p>Web Designing</p>
+                    </div>
+                </div>
+                <div class="services_cards_column">
+                    <div class="service_card">
+                        <img class = "service_icons" src="images/helper-unscreen.gif">
+                        <p>24/7 Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_container">
+        <div class="footer_container_left">
+            <img class="footer_image" src="images/logo.png">
+        </div>
+        <div class="footer_container_right">
+            <img class="footer_icons" src="images/icons.webp">
+            
+            
+
+        </div>
+    </div>
+    <script src="steer.js"></script>
+</body>
+</html>
